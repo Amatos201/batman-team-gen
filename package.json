@@ -1,18 +1,18 @@
 {
   "name": "batman-team-gen",
   "version": "1.0.0",
-  "description": "OOP and testing for week 10 homework",
-  "main": "app.js",
+  "description": "homework",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
-    "test": "test"
+    "test": "jest"
   },
   "scripts": {
     "test": "jest --verbose test/*"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stevetrilogy/unit10hw.git"
+    "url": "git+https://github.com/Amatos201/batman-team-gen.git"
   },
   "author": "",
   "license": "ISC",

@@ -65,23 +65,23 @@ const quesEngineer = [
 const quesIntern = [
   {
     type: "input",
-    message: "What is intern's name?",
+    message: "What is the intern's name?",
     name: "name"
   },
   {
     type: "input",
-    message: "What is intern's ID?",
+    message: "What is the intern's ID?",
     name: "id"
   },
  
   {
     type: "input",
-    message: "What is intern's Email?",
+    message: "What is the intern's Email?",
     name: "email"
   },
   {
     type: "input",
-    message: "What is intern's school?",
+    message: "Which school did intern attend?",
     name: "school"
   }
 ];
@@ -92,10 +92,10 @@ function promptManager() {
     inquirer
       .prompt(quesManager)
       .then(function (input) {
-        console.log("manager");
+        console.log("Manager");
         
         const manager = new Manager(input.name, input.id, input.email, input.officeNumber)
-        teamArr.push(manager);
+        teamArr.push(Manager);
 
         createTeam();
       });
@@ -211,6 +211,6 @@ let html = `
     } 
     html += close; 
 
-    writeFileAsync("./output/team.html", html);
+    
     
   };
